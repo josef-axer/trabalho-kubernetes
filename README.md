@@ -35,14 +35,14 @@ O Jogo de Adivinhação de Palavras é um jogo multiplayer onde:
 ### Pré-requisitos
 
 - Docker e Docker Compose
-- Node.js (para desenvolvimento local)
-- Python 3.8+ (para desenvolvimento local)
+- Node.js 
+- Python 3.8+
 
 ### Desenvolvimento Local com Docker Compose
 
 1. Clone o repositório:
 ```bash
-git clone <repository-url>
+git clone https://github.com/josef-axer/trabalho-kubernetes.git
 cd guess-word-game
 ```
 
@@ -126,14 +126,6 @@ Cria um novo jogo com uma palavra secreta.
 Faz uma tentativa de adivinhação para um jogo específico.
 - Corpo da requisição: `{ "guess": "palavra-tentativa" }`
 - Resposta: `{ "result": "mensagem-de-feedback" }`
-
-## Contribuindo
-
-1. Faça um fork do repositório
-2. Crie sua branch de feature (`git checkout -b feature/nova-feature`)
-3. Commit suas alterações (`git commit -m 'Adiciona uma nova feature incrível'`)
-4. Envie para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
 
 ## Licença
 
