@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: frontend:latest  # You'll need to build and push this image to a registry
+        image: DOCKER.IO/JOSEFAXER/FRONTEND:LATEST
         imagePullPolicy: IfNotPresent
         env:
         - name: REACT_APP_BACKEND_URL

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: guess
-        image: # Alterar  
+        image: DOCKER.IO/JOSEFAXER/BACKEND:LATEST
         imagePullPolicy: IfNotPresent
         envFrom:
         - configMapRef:
