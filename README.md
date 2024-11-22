@@ -43,7 +43,7 @@ O Jogo de Adivinhação de Palavras é um jogo multiplayer onde:
 1. Clone o repositório:
 ```bash
 git clone https://github.com/josef-axer/trabalho-kubernetes.git
-cd guess-word-game
+cd trabalho-kubernetes
 ```
 
 2. Inicie a aplicação:
